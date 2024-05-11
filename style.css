@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+}
+
+body{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 500px 1fr;
+    color: beige;
+    padding: 80px;
+}
+.left-container{
+    background-color: #1a4545;
+}
+
+img{
+    width: 100%;
+    border-radius: 50%;
+}
+
+.profile-container div{
+    margin: 20px auto 20px auto;
+    width: 300px;
+    height: 300px;
+}
+
+.profile-container{
+    text-align: center;
+}
+
+.exp ul{
+    margin: 20px;
+    list-style: none;
+}
+
+.skill ul{
+    margin: 20px;
+}
+
+h1{
+    font-size: 25px;
+}
+
+.personal{
+    margin: 30px;
+}
+
+.contacts{
+    margin-top: 100px;
+}
+.contacts p{
+    margin-top: 20px;
+}
+
+.links{
+    color: beige;
+}
+p{
+    margin: 10px;
+}
+
+h2{
+    margin: 5px;
+}
+
+.right-container{
+    background-color: #266967;
+}
+
+.right-container .ed{
+    margin: 40px 0 20px 20px;
+}
+hr{
+    border: 5px solid #051821;
+    margin-right: 20px;
+}
+
+.college{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.objectives{
+    margin-top: 30px;
+    margin-left: 20px;
+}
+
+.exp{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.skill{
+    margin-top: 30px;
+    margin-left: 5px;
+}
+
+.links p a:hover{
+    color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    body {
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    
+    .left-container, .right-container {
+        width: 100%;
+    }
+    
+    .left-container, .right-container, img {
+        border-radius: 0;
+    }
+    
+    img{
+        border-radius: 50%;
+    };
+
+    .profile-container div {
+        width: 200px;
+        height: 200px;
+    }
+    
+    .personal, .contacts, .objectives, .ed, .exp, .skill {
+        margin: 20px;
+    }
+    
+    .contacts {
+        margin-top: 50px;
+    }
+    
+    .links p {
+        font-size: 16px;
+    }
+    
+}
